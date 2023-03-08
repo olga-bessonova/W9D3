@@ -19,7 +19,9 @@ export default class FollowToggle {
   }
 
   async follow() {
-    // Your code here
+    await API.followUser()
+
+    
   }
 
   async unfollow() {
